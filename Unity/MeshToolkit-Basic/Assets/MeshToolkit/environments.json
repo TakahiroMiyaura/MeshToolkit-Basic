@@ -1,0 +1,23 @@
+{
+  "uploadEntries": [
+    {
+      "assetId": "686a76e6-8e12-41e3-abc8-1800d273b57e",
+      "name": "MeshToolkitBasic",
+      "isEnabled": true,
+      "uploadItems": [
+        {
+          "prefabFilepath": "Assets/Common/Scenes/02.MeshInteractableBody_Equippable.unity",
+          "buildPlatforms": [
+            "android",
+            "pc"
+          ]
+        }
+      ],
+      "perPlatformAssets": false,
+      "thumbnailImagesFolder": "Assets\\MeshToolkit\\Thumbnails\\686a76e6",
+      "includeThumbnail": false,
+      "thumbnailGenerationBehavior": "Autogenerate",
+      "metaverseId": "7f4e489f-dab9-4cf5-9efc-f493b59c559d"
+    }
+  ]
+}
