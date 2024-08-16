@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 4042521837458631069}
   - component: {fileID: 493263198533957436}
   - component: {fileID: 5748725605417666704}
-  - component: {fileID: 864568226398013297}
   - component: {fileID: 4541825429199928136}
   m_Layer: 0
   m_Name: ManipulableSphere
@@ -135,18 +134,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &864568226398013297
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2568763521154989606}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 222356170, guid: 1bad8b70bae5790449cff1e21dc270bf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &4541825429199928136
 MonoBehaviour:
   m_ObjectHideFlags: 0

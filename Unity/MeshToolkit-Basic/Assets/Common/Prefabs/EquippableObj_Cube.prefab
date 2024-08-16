@@ -289,7 +289,6 @@ GameObject:
   - component: {fileID: 7257640238317104024}
   - component: {fileID: 4092332107378978967}
   - component: {fileID: 4407687275527297071}
-  - component: {fileID: 965914614518279242}
   - component: {fileID: 1041954171601085197}
   m_Layer: 0
   m_Name: EquippableObj_Cube
@@ -415,18 +414,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &965914614518279242
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3045628169773748432}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 222356170, guid: 1bad8b70bae5790449cff1e21dc270bf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1041954171601085197
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 1820413351
+CRC: 3793646628
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: c34cf21c32726f533bcfd8f0edc4d8e1
+    Hash: 7489ecb6de35249d7878e4e308e7321a
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 104208bc7038c9e2d91aafaca060ae13
+    Hash: 21c74118e4cba1d4d90a3a309c244f5c
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: c34cf21c32726f533bcfd8f0edc4d8e1
+    Hash: 7489ecb6de35249d7878e4e308e7321a
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -36,17 +36,7 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 65
   Script: {instanceID: 0}
-- Class: 74
-  Script: {instanceID: 0}
-- Class: 82
-  Script: {instanceID: 0}
-- Class: 83
-  Script: {instanceID: 0}
 - Class: 89
-  Script: {instanceID: 0}
-- Class: 91
-  Script: {instanceID: 0}
-- Class: 95
   Script: {instanceID: 0}
 - Class: 104
   Script: {instanceID: 0}
@@ -82,8 +72,6 @@ ClassTypes:
   Script: {instanceID: 0}
 - Class: 128
   Script: {instanceID: 0}
-- Class: 135
-  Script: {instanceID: 0}
 - Class: 136
   Script: {instanceID: 0}
 - Class: 157
@@ -94,5 +82,5 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/MeshToolkit/Temp/AssetCopies/686a76e6/0/02.MeshInteractableBody_Equippable.unity
+- Assets/MeshToolkit/Temp/AssetCopies/686a76e6/0/00.MovingFloo_Layer.unity
 Dependencies: []
