@@ -77,3 +77,6 @@ crashlytics-build.properties
 
 #PackageFiles
 Packages/*/*.tgz
+
+#Microsoft Mesh Temp
+/[Aa]ssets/[Mm]eshToolkit/[Tt]emp/*
