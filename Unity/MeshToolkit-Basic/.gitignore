@@ -80,3 +80,4 @@ Packages/*/*.tgz
 
 #Microsoft Mesh Temp
 /[Aa]ssets/[Mm]eshToolkit/[Tt]emp/*
+/[Aa]ssets/[Mm]eshToolkit/[Tt]emp.meta
