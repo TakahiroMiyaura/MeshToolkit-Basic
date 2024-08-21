@@ -1,8 +1,8 @@
 {
   "uploadEntries": [
     {
-      "assetId": "686a76e6-8e12-41e3-abc8-1800d273b57e",
-      "name": "MeshToolkitBasic",
+      "assetId": "d71d312a-f2be-4f11-92c0-4259b47beef2",
+      "name": "XRMTG",
       "isEnabled": true,
       "uploadItems": [
         {
@@ -14,7 +14,7 @@
         }
       ],
       "perPlatformAssets": false,
-      "thumbnailImagesFolder": "Assets\\MeshToolkit\\Thumbnails\\686a76e6",
+      "thumbnailImagesFolder": "Assets\\MeshToolkit\\Thumbnails\\d71d312a",
       "includeThumbnail": false,
       "thumbnailGenerationBehavior": "Autogenerate",
       "metaverseId": "7f4e489f-dab9-4cf5-9efc-f493b59c559d"
