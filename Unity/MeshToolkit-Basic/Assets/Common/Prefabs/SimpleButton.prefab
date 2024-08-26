@@ -1005,7 +1005,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Position Reset
+  m_text: 'Button
 
 '
   m_isRightToLeft: 0
