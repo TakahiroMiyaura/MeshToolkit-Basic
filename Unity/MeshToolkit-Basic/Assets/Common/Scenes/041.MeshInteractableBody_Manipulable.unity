@@ -1648,7 +1648,7 @@ PrefabInstance:
     - target: {fileID: 3045628169773748432, guid: 98cb35e792a71fa45a6d441dd3e20188,
         type: 3}
       propertyPath: m_Name
-      value: EquippableObj_Cube_HoverIKBall
+      value: ManupilableObj_Cube_HoverIKBall
       objectReference: {fileID: 0}
     - target: {fileID: 4426565936165289118, guid: 98cb35e792a71fa45a6d441dd3e20188,
         type: 3}
@@ -1897,6 +1897,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
         type: 3}
+      propertyPath: manipulationSettings.forceMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
       propertyPath: hoverIKSettings.CustomHandPose.HandPoseShape
       value: 9
       objectReference: {fileID: 0}
@@ -1908,12 +1913,14 @@ PrefabInstance:
     - target: {fileID: 3045628169773748432, guid: 98cb35e792a71fa45a6d441dd3e20188,
         type: 3}
       propertyPath: m_Name
-      value: EquippableObj_Cube_HeldHandPinch
+      value: ManupilableObj_Cube_ForceModeDefault
       objectReference: {fileID: 0}
     - target: {fileID: 4426565936165289118, guid: 98cb35e792a71fa45a6d441dd3e20188,
         type: 3}
       propertyPath: m_text
-      value: 'Held Hand Pose : Pinch'
+      value: 'Force Mode : Default
+
+        All Transform'
       objectReference: {fileID: 0}
     - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
         type: 3}
@@ -2213,6 +2220,21 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
         type: 3}
+      propertyPath: equippable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: manipulable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: manipulationSettings.translation.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
       propertyPath: hoverIKSettings.CustomHandPose.HandPoseShape
       value: 4
       objectReference: {fileID: 0}
@@ -2224,12 +2246,14 @@ PrefabInstance:
     - target: {fileID: 3045628169773748432, guid: 98cb35e792a71fa45a6d441dd3e20188,
         type: 3}
       propertyPath: m_Name
-      value: EquippableObj_Cube_HeldHandCylinder
+      value: ManupilableObj_Cube_ForceModeDefaultRotattionOnly
       objectReference: {fileID: 0}
     - target: {fileID: 4426565936165289118, guid: 98cb35e792a71fa45a6d441dd3e20188,
         type: 3}
       propertyPath: m_text
-      value: 'Held Hand Pose : Cylinder'
+      value: 'Force Mode : Default
+
+        Rotation Only'
       objectReference: {fileID: 0}
     - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
         type: 3}
@@ -2363,7 +2387,7 @@ PrefabInstance:
     - target: {fileID: 3045628169773748432, guid: 98cb35e792a71fa45a6d441dd3e20188,
         type: 3}
       propertyPath: m_Name
-      value: EquippableObj_Cube_HoverIKHoldController
+      value: ManupilableObj_Cube_HoverIKHoldController
       objectReference: {fileID: 0}
     - target: {fileID: 4426565936165289118, guid: 98cb35e792a71fa45a6d441dd3e20188,
         type: 3}
@@ -2725,7 +2749,7 @@ PrefabInstance:
     - target: {fileID: 3045628169773748432, guid: 98cb35e792a71fa45a6d441dd3e20188,
         type: 3}
       propertyPath: m_Name
-      value: EquippableObj_Cube_HoverIKThumbUp
+      value: ManupilableObj_Cube_HoverIKThumbUp
       objectReference: {fileID: 0}
     - target: {fileID: 4426565936165289118, guid: 98cb35e792a71fa45a6d441dd3e20188,
         type: 3}
@@ -2834,7 +2858,7 @@ PrefabInstance:
     - target: {fileID: 3045628169773748432, guid: 98cb35e792a71fa45a6d441dd3e20188,
         type: 3}
       propertyPath: m_Name
-      value: EquippableObj_Cube_HoverIKTrackingConstrain
+      value: ManupilableObj_Cube_HoverIKTrackingConstrain
       objectReference: {fileID: 0}
     - target: {fileID: 4426565936165289118, guid: 98cb35e792a71fa45a6d441dd3e20188,
         type: 3}
@@ -2945,7 +2969,7 @@ PrefabInstance:
     - target: {fileID: 3045628169773748432, guid: 98cb35e792a71fa45a6d441dd3e20188,
         type: 3}
       propertyPath: m_Name
-      value: EquippableObj_Cube_HoverIKPinch
+      value: ManupilableObj_Cube_HoverIKPinch
       objectReference: {fileID: 0}
     - target: {fileID: 4426565936165289118, guid: 98cb35e792a71fa45a6d441dd3e20188,
         type: 3}
@@ -3263,7 +3287,7 @@ PrefabInstance:
     - target: {fileID: 3045628169773748432, guid: 98cb35e792a71fa45a6d441dd3e20188,
         type: 3}
       propertyPath: m_Name
-      value: EquippableObj_Cube_HoverIKTrackingNoConstrain
+      value: ManupilableObj_Cube_HoverIKTrackingNoConstrain
       objectReference: {fileID: 0}
     - target: {fileID: 4426565936165289118, guid: 98cb35e792a71fa45a6d441dd3e20188,
         type: 3}
@@ -3379,7 +3403,7 @@ PrefabInstance:
     - target: {fileID: 3045628169773748432, guid: 98cb35e792a71fa45a6d441dd3e20188,
         type: 3}
       propertyPath: m_Name
-      value: EquippableObj_Cube_HoverIKPoint
+      value: ManupilableObj_Cube_HoverIKPoint
       objectReference: {fileID: 0}
     - target: {fileID: 4426565936165289118, guid: 98cb35e792a71fa45a6d441dd3e20188,
         type: 3}
@@ -3575,7 +3599,7 @@ PrefabInstance:
     - target: {fileID: 3045628169773748432, guid: 98cb35e792a71fa45a6d441dd3e20188,
         type: 3}
       propertyPath: m_Name
-      value: EquippableObj_Cube_HoverIKCylinder
+      value: ManupilableObj_Cube_HoverIKCylinder
       objectReference: {fileID: 0}
     - target: {fileID: 4426565936165289118, guid: 98cb35e792a71fa45a6d441dd3e20188,
         type: 3}
@@ -3986,7 +4010,7 @@ PrefabInstance:
     - target: {fileID: 3045628169773748432, guid: 98cb35e792a71fa45a6d441dd3e20188,
         type: 3}
       propertyPath: m_Name
-      value: EquippableObj_Cube_HoverIKShapeRocket
+      value: ManupilableObj_Cube_HoverIKShapeRocket
       objectReference: {fileID: 0}
     - target: {fileID: 4426565936165289118, guid: 98cb35e792a71fa45a6d441dd3e20188,
         type: 3}
@@ -4194,7 +4218,7 @@ PrefabInstance:
     - target: {fileID: 3045628169773748432, guid: 98cb35e792a71fa45a6d441dd3e20188,
         type: 3}
       propertyPath: m_Name
-      value: EquippableObj_Cube_HoverIKHoldMarker
+      value: ManupilableObj_Cube_HoverIKHoldMarker
       objectReference: {fileID: 0}
     - target: {fileID: 4426565936165289118, guid: 98cb35e792a71fa45a6d441dd3e20188,
         type: 3}
@@ -4303,7 +4327,7 @@ PrefabInstance:
     - target: {fileID: 3045628169773748432, guid: 98cb35e792a71fa45a6d441dd3e20188,
         type: 3}
       propertyPath: m_Name
-      value: EquippableObj_Cube_HoverIKReach
+      value: ManupilableObj_Cube_HoverIKReach
       objectReference: {fileID: 0}
     - target: {fileID: 4426565936165289118, guid: 98cb35e792a71fa45a6d441dd3e20188,
         type: 3}
@@ -4391,6 +4415,21 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
         type: 3}
+      propertyPath: equippable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: manipulable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: manipulationSettings.rotation.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
       propertyPath: hoverIKSettings.CustomHandPose.HandPoseShape
       value: 5
       objectReference: {fileID: 0}
@@ -4402,12 +4441,14 @@ PrefabInstance:
     - target: {fileID: 3045628169773748432, guid: 98cb35e792a71fa45a6d441dd3e20188,
         type: 3}
       propertyPath: m_Name
-      value: EquippableObj_Cube_HeldHandBall
+      value: ManupilableObj_Cube_ForceModeDefaultTransformOnly
       objectReference: {fileID: 0}
     - target: {fileID: 4426565936165289118, guid: 98cb35e792a71fa45a6d441dd3e20188,
         type: 3}
       propertyPath: m_text
-      value: 'Held Hand Pose : Ball'
+      value: 'Force Mode : Default
+
+        Transform Only'
       objectReference: {fileID: 0}
     - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
         type: 3}
@@ -4715,7 +4756,7 @@ PrefabInstance:
     - target: {fileID: 3045628169773748432, guid: 98cb35e792a71fa45a6d441dd3e20188,
         type: 3}
       propertyPath: m_Name
-      value: EquippableObj_Cube_HoverIKGun
+      value: ManupilableObj_Cube_HoverIKGun
       objectReference: {fileID: 0}
     - target: {fileID: 4426565936165289118, guid: 98cb35e792a71fa45a6d441dd3e20188,
         type: 3}
