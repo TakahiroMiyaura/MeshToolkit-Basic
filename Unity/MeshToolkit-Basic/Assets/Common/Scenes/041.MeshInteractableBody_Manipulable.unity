@@ -769,6 +769,142 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 350368864}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &379618894
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1113310711}
+    m_Modifications:
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: equippable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: manipulable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: manipulationSettings.forceMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: hoverIKSettings.CustomHandPose.HandPoseShape
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: equippableSettings.EquipHandPose.HandPoseShape
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: manipulationSettings.pointSpring.dampingFactor
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: manipulationSettings.modifyTargetTransform.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: manipulationSettings.modifyTargetTransform.newTargetPosition.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: manipulationSettings.AvatarIKSettings.CustomHandPose.HandPoseShape
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3045628169773748432, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_Name
+      value: ManupilableObj_Cube_PointSpringModifyTargetTransformCamera
+      objectReference: {fileID: 0}
+    - target: {fileID: 4426565936165289118, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_text
+      value: 'Modify Target Transform
+
+        Local Space of Camera'
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 312076484426957621, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+  m_SourcePrefab: {fileID: 100100000, guid: 98cb35e792a71fa45a6d441dd3e20188, type: 3}
+--- !u!4 &379618895 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+    type: 3}
+  m_PrefabInstance: {fileID: 379618894}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &379618896 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3045628169773748432, guid: 98cb35e792a71fa45a6d441dd3e20188,
+    type: 3}
+  m_PrefabInstance: {fileID: 379618894}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &397751674
 GameObject:
   m_ObjectHideFlags: 0
@@ -2499,6 +2635,10 @@ Transform:
   - {fileID: 558162448}
   - {fileID: 956219515}
   - {fileID: 1761453249}
+  - {fileID: 379618895}
+  - {fileID: 1189931355}
+  - {fileID: 1677620729}
+  - {fileID: 1888327684}
   m_Father: {fileID: 1046565261}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1162450661
@@ -2672,6 +2812,152 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1001 &1189931353
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1113310711}
+    m_Modifications:
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: equippable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: manipulable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: manipulationSettings.forceMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: hoverIKSettings.CustomHandPose.HandPoseShape
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: equippableSettings.EquipHandPose.HandPoseShape
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: manipulationSettings.pointSpring.dampingFactor
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: manipulationSettings.modifyTargetTransform.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: manipulationSettings.modifyTargetTransform.targetSpace
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: manipulationSettings.modifyTargetTransform.newTargetPosition.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: manipulationSettings.modifyTargetTransform.newTargetPosition.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: manipulationSettings.AvatarIKSettings.CustomHandPose.HandPoseShape
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3045628169773748432, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_Name
+      value: ManupilableObj_Cube_PointSpringModifyTargetTransformAvatar
+      objectReference: {fileID: 0}
+    - target: {fileID: 4426565936165289118, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_text
+      value: 'Modify Target Transform
+
+        Local Space of Avatar'
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 312076484426957621, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+  m_SourcePrefab: {fileID: 100100000, guid: 98cb35e792a71fa45a6d441dd3e20188, type: 3}
+--- !u!1 &1189931354 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3045628169773748432, guid: 98cb35e792a71fa45a6d441dd3e20188,
+    type: 3}
+  m_PrefabInstance: {fileID: 1189931353}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1189931355 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+    type: 3}
+  m_PrefabInstance: {fileID: 1189931353}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1214390935
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3520,6 +3806,14 @@ MonoBehaviour:
     Id: 19
   - Interactable: {fileID: 1275803420}
     Id: 20
+  - Interactable: {fileID: 379618896}
+    Id: 2
+  - Interactable: {fileID: 1189931354}
+    Id: 21
+  - Interactable: {fileID: 1888327685}
+    Id: 22
+  - Interactable: {fileID: 1677620728}
+    Id: 23
 --- !u!4 &1404836333
 Transform:
   m_ObjectHideFlags: 0
@@ -3946,6 +4240,142 @@ Transform:
   - {fileID: 2113766661}
   m_Father: {fileID: 524019307}
   m_LocalEulerAnglesHint: {x: 0, y: 49.596, z: 0}
+--- !u!1001 &1677620727
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1113310711}
+    m_Modifications:
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: equippable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: manipulable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: manipulationSettings.forceMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: hoverIKSettings.CustomHandPose.HandPoseShape
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: equippableSettings.EquipHandPose.HandPoseShape
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: manipulationSettings.pointSpring.dampingFactor
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: manipulationSettings.modifyTargetTransform.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: manipulationSettings.modifyTargetTransform.newTargetPosition.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: manipulationSettings.AvatarIKSettings.CustomHandPose.HandPoseShape
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3045628169773748432, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_Name
+      value: ManupilableObj_Cube_AvatarIKSomthing
+      objectReference: {fileID: 0}
+    - target: {fileID: 4426565936165289118, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_text
+      value: 'Avatar IK
+
+        Reach'
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.69
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 312076484426957621, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+  m_SourcePrefab: {fileID: 100100000, guid: 98cb35e792a71fa45a6d441dd3e20188, type: 3}
+--- !u!1 &1677620728 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3045628169773748432, guid: 98cb35e792a71fa45a6d441dd3e20188,
+    type: 3}
+  m_PrefabInstance: {fileID: 1677620727}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1677620729 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+    type: 3}
+  m_PrefabInstance: {fileID: 1677620727}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1701043626
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4408,6 +4838,152 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3045628169773748432, guid: 98cb35e792a71fa45a6d441dd3e20188,
     type: 3}
   m_PrefabInstance: {fileID: 1814602036}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1888327683
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1113310711}
+    m_Modifications:
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: equippable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: manipulable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: manipulationSettings.forceMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: hoverIKSettings.CustomHandPose.HandPoseShape
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: equippableSettings.EquipHandPose.HandPoseShape
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: manipulationSettings.pointSpring.dampingFactor
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: manipulationSettings.modifyTargetTransform.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: manipulationSettings.modifyTargetTransform.targetSpace
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: manipulationSettings.modifyTargetTransform.newTargetPosition.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: manipulationSettings.modifyTargetTransform.newTargetPosition.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1041954171601085197, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: manipulationSettings.AvatarIKSettings.CustomHandPose.HandPoseShape
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3045628169773748432, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_Name
+      value: ManupilableObj_Cube_AvatartIKNone
+      objectReference: {fileID: 0}
+    - target: {fileID: 4426565936165289118, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_text
+      value: 'Avatar IK
+
+        None'
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.71
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 312076484426957621, guid: 98cb35e792a71fa45a6d441dd3e20188,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+  m_SourcePrefab: {fileID: 100100000, guid: 98cb35e792a71fa45a6d441dd3e20188, type: 3}
+--- !u!4 &1888327684 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9213766487111299789, guid: 98cb35e792a71fa45a6d441dd3e20188,
+    type: 3}
+  m_PrefabInstance: {fileID: 1888327683}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1888327685 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3045628169773748432, guid: 98cb35e792a71fa45a6d441dd3e20188,
+    type: 3}
+  m_PrefabInstance: {fileID: 1888327683}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1917714680
 PrefabInstance:
