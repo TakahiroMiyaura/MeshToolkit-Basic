@@ -6,7 +6,7 @@
       "isEnabled": true,
       "uploadItems": [
         {
-          "prefabFilepath": "Assets/Common/Scenes/00.MovingFloo_Layer.unity",
+          "prefabFilepath": "Assets/Common/Scenes/044.MeshInteractableBody_Throwable.unity",
           "buildPlatforms": [
             "android",
             "pc"

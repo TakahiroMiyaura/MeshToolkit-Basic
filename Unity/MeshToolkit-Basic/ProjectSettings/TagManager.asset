@@ -41,13 +41,13 @@ TagManager:
   - Reserved10
   - Reserved11
   - Reserved12
-  - Reserved13
+  - OverlayImposterUI
   - GroundCollision
   - Avatars
   - CharacterController
   - IgnoreCollisions
   - TriggerVolume
-  - Reserved19
+  - LocalAvatar
   - ObjectCollision
   - IgnoreObjects
   - RaycastOnly
