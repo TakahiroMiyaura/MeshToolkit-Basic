@@ -288,7 +288,7 @@ GameObject:
   - component: {fileID: 4407687275527297071}
   - component: {fileID: 1041954171601085197}
   m_Layer: 0
-  m_Name: EquippableObj_Cube
+  m_Name: MeshInterqctableBodyObj_Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -374,7 +374,7 @@ MonoBehaviour:
   hoverIKSettings:
     CustomHandPose:
       HandPoseShape: 0
-      HandPoseSize: 1
+      HandPoseSize: 0.5
     OverrideHandRotation: 0
     HandRotation: {x: 0, y: 0, z: 0}
     EnableIkTracking: 0

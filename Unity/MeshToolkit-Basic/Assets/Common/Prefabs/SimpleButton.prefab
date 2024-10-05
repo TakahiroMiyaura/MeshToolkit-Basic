@@ -388,7 +388,7 @@ MonoBehaviour:
   hoverIKSettings:
     CustomHandPose:
       HandPoseShape: 6
-      HandPoseSize: 1
+      HandPoseSize: 0.5
     OverrideHandRotation: 0
     HandRotation: {x: 0, y: 0, z: 0}
     EnableIkTracking: 1
