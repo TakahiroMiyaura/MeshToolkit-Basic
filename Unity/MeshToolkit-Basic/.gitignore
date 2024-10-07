@@ -81,3 +81,7 @@ Packages/*/*.tgz
 #Microsoft Mesh Temp
 /[Aa]ssets/[Mm]eshToolkit/[Tt]emp/*
 /[Aa]ssets/[Mm]eshToolkit/[Tt]emp.meta
+
+#Microsoft Mesh Thumbnails
+/[Aa]ssets/[Mm]eshToolkit/[Tt]humbnails
+/[Aa]ssets/[Mm]eshToolkit/[Tt]humbnails.meta
