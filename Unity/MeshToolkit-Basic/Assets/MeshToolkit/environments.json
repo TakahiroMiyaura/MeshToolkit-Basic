@@ -1,12 +1,12 @@
 {
   "uploadEntries": [
     {
-      "assetId": "d71d312a-f2be-4f11-92c0-4259b47beef2",
-      "name": "XRMTG",
+      "assetId": "",
+      "name": "",
       "isEnabled": true,
       "uploadItems": [
         {
-          "prefabFilepath": "Assets/Common/Scenes/044.MeshInteractableBody_Throwable.unity",
+          "prefabFilepath": "",
           "buildPlatforms": [
             "android",
             "pc"
@@ -14,10 +14,8 @@
         }
       ],
       "perPlatformAssets": false,
-      "thumbnailImagesFolder": "Assets\\MeshToolkit\\Thumbnails\\d71d312a",
       "includeThumbnail": false,
-      "thumbnailGenerationBehavior": "Autogenerate",
-      "metaverseId": "7f4e489f-dab9-4cf5-9efc-f493b59c559d"
+      "thumbnailGenerationBehavior": "Autogenerate"
     }
   ]
 }

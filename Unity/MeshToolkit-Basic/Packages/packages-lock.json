@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.microsoft.mesh.toolkit": {
-      "version": "5.2413.154",
+      "version": "5.2414.128",
       "depth": 0,
       "source": "registry",
       "dependencies": {

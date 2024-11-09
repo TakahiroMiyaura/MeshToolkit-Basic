@@ -85,3 +85,11 @@ Packages/*/*.tgz
 #Microsoft Mesh Thumbnails
 /[Aa]ssets/[Mm]eshToolkit/[Tt]humbnails
 /[Aa]ssets/[Mm]eshToolkit/[Tt]humbnails.meta
+
+#Microsoft Mesh Cloud Scripting Publish Settings
+/[Aa]ssets/[Mm]eshToolkit/environments
+/[Aa]ssets/[Mm]eshToolkit/environments.meta
+/[Aa]ssets/[Mm]eshToolkit/mesh_cloud_scripting_publish_settings.asset
+/[Aa]ssets/[Mm]eshToolkit/mesh_cloud_scripting_publish_settings.asset.meta
+/[Aa]ssets/[Mm]eshToolkit/mesh_cloud_scripting_publish_settings.json
+/[Aa]ssets/[Mm]eshToolkit/mesh_cloud_scripting_publish_settings.json.meta
