@@ -1,12 +1,12 @@
 {
   "uploadEntries": [
     {
-      "assetId": "",
-      "name": "",
+      "assetId": "5febbc9b-6964-4c91-bc1c-4e3794f17bfa",
+      "name": "Mesh-CIS-001",
       "isEnabled": true,
       "uploadItems": [
         {
-          "prefabFilepath": "",
+          "prefabFilepath": "Assets/Common/Scenes/020.MovingFloor_Layer.unity",
           "buildPlatforms": [
             "android",
             "pc"
@@ -14,8 +14,10 @@
         }
       ],
       "perPlatformAssets": false,
+      "thumbnailImagesFolder": "Assets\\MeshToolkit\\Thumbnails\\5febbc9b",
       "includeThumbnail": false,
-      "thumbnailGenerationBehavior": "Autogenerate"
+      "thumbnailGenerationBehavior": "Autogenerate",
+      "metaverseId": "c47951ad-9d6e-4820-8085-fa77c9dcbe47"
     }
   ]
 }
