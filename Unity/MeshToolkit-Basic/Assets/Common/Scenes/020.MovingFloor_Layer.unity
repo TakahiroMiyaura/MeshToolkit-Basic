@@ -6195,6 +6195,46 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 38bd1ce5f7d7a1b429c31fdbab928c53, type: 2}
+    - target: {fileID: 4541825429199928136, guid: f976758feb526b346ada13068e2dab90,
+        type: 3}
+      propertyPath: highlightSettings.Selected
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4541825429199928136, guid: f976758feb526b346ada13068e2dab90,
+        type: 3}
+      propertyPath: highlightSettings.HighlightColor.a
+      value: 0.49411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 4541825429199928136, guid: f976758feb526b346ada13068e2dab90,
+        type: 3}
+      propertyPath: highlightSettings.HighlightColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4541825429199928136, guid: f976758feb526b346ada13068e2dab90,
+        type: 3}
+      propertyPath: highlightSettings.HighlightColor.g
+      value: 0.49019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 4541825429199928136, guid: f976758feb526b346ada13068e2dab90,
+        type: 3}
+      propertyPath: highlightSettings.HighlightColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4541825429199928136, guid: f976758feb526b346ada13068e2dab90,
+        type: 3}
+      propertyPath: highlightSettings.HighlightMechanism
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4541825429199928136, guid: f976758feb526b346ada13068e2dab90,
+        type: 3}
+      propertyPath: highlightSettings.HighlightOutlineWidth
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 4541825429199928136, guid: f976758feb526b346ada13068e2dab90,
+        type: 3}
+      propertyPath: highlightSettings.HighlightTransitionDuration
+      value: 0.3
+      objectReference: {fileID: 0}
     - target: {fileID: 5694031285455844945, guid: f976758feb526b346ada13068e2dab90,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9750,6 +9790,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4541825429199928136, guid: f976758feb526b346ada13068e2dab90,
         type: 3}
+      propertyPath: highlightSettings.HighlightColor.a
+      value: 0.49411765
+      objectReference: {fileID: 0}
+    - target: {fileID: 4541825429199928136, guid: f976758feb526b346ada13068e2dab90,
+        type: 3}
+      propertyPath: highlightSettings.HighlightColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4541825429199928136, guid: f976758feb526b346ada13068e2dab90,
+        type: 3}
+      propertyPath: highlightSettings.HighlightColor.g
+      value: 0.49019608
+      objectReference: {fileID: 0}
+    - target: {fileID: 4541825429199928136, guid: f976758feb526b346ada13068e2dab90,
+        type: 3}
+      propertyPath: highlightSettings.HighlightColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4541825429199928136, guid: f976758feb526b346ada13068e2dab90,
+        type: 3}
+      propertyPath: highlightSettings.HighlightMechanism
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4541825429199928136, guid: f976758feb526b346ada13068e2dab90,
+        type: 3}
+      propertyPath: highlightSettings.HighlightOutlineWidth
+      value: 0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 4541825429199928136, guid: f976758feb526b346ada13068e2dab90,
+        type: 3}
       propertyPath: hoverIKSettings.CustomHandPose.HandPoseSize
       value: 0.5
       objectReference: {fileID: 0}
@@ -9757,6 +9827,11 @@ PrefabInstance:
         type: 3}
       propertyPath: hoverIKSettings.CustomHandPose.HandPoseShape
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4541825429199928136, guid: f976758feb526b346ada13068e2dab90,
+        type: 3}
+      propertyPath: highlightSettings.HighlightTransitionDuration
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 4541825429199928136, guid: f976758feb526b346ada13068e2dab90,
         type: 3}
