@@ -1,12 +1,12 @@
 {
   "uploadEntries": [
     {
-      "assetId": "5febbc9b-6964-4c91-bc1c-4e3794f17bfa",
-      "name": "Mesh-CIS-001",
+      "assetId": "d4bacbb7-9fa2-4fb2-a98b-25ccd712b520",
+      "name": "Mesh-CIE-003",
       "isEnabled": true,
       "uploadItems": [
         {
-          "prefabFilepath": "Assets/Common/Scenes/020.MovingFloor_Layer.unity",
+          "prefabFilepath": "Assets/Common/Scenes/042.MeshInteractableBody_Manipulable.unity",
           "buildPlatforms": [
             "android",
             "pc"
@@ -14,7 +14,7 @@
         }
       ],
       "perPlatformAssets": false,
-      "thumbnailImagesFolder": "Assets\\MeshToolkit\\Thumbnails\\5febbc9b",
+      "thumbnailImagesFolder": "Assets\\MeshToolkit\\Thumbnails\\d4bacbb7",
       "includeThumbnail": false,
       "thumbnailGenerationBehavior": "Autogenerate",
       "metaverseId": "c47951ad-9d6e-4820-8085-fa77c9dcbe47"
