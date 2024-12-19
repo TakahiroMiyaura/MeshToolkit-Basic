@@ -1,0 +1,23 @@
+{
+  "uploadEntries": [
+    {
+      "assetId": "1180d31f-2515-42f8-adff-656b42a2c118",
+      "name": "Mesh-CIE-004",
+      "isEnabled": true,
+      "uploadItems": [
+        {
+          "prefabFilepath": "Assets/Scenes/Mesh-CIE-004.unity",
+          "buildPlatforms": [
+            "android",
+            "pc"
+          ]
+        }
+      ],
+      "perPlatformAssets": false,
+      "thumbnailImagesFolder": "Assets\\MeshToolkit\\Thumbnails\\1180d31f",
+      "includeThumbnail": false,
+      "thumbnailGenerationBehavior": "Autogenerate",
+      "metaverseId": "c47951ad-9d6e-4820-8085-fa77c9dcbe47"
+    }
+  ]
+}
