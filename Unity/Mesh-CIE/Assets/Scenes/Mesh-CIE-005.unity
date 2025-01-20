@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 15303, guid: 0000000000000000f000000000000000, type: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -198,7 +198,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 92c239c6f48499944aec5de81cd7a6fa, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -295,18 +295,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   InteractionProximityRadius: 6
-  interactionProximityRadius: 6
+  interactionProximityRadius: 10
   highlightSettings:
     Hovered: 1
     Selected: 0
     HighlightMechanism: 1
-    HighlightColor: {r: 0.020754695, g: 1, b: 0.39748862, a: 1}
+    HighlightColor: {r: 1, g: 0.6666667, b: 0, a: 1}
     HighlightTransitionDuration: 0.15
-    HighlightOutlineWidth: 0.004
+    HighlightOutlineWidth: 0.008
     CustomOutlineMaterial: {fileID: 0}
     CustomStencilWriteMaterial: {fileID: 0}
-    OutlineExclusionMode: 0
-    OutlineExclusionString: 
+    OutlineExclusionMode: 3
+    OutlineExclusionString: Text (TMP)
     highlightAmountProperties: []
     highlightColorProperties: []
     CustomHighlightMaterial: {fileID: 0}
@@ -554,12 +554,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 106970970}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.92, y: 1.66, z: 3.3}
+  m_LocalRotation: {x: -0, y: 0.40653804, z: -0, w: 0.9136339}
+  m_LocalPosition: {x: 2.2755203, y: 1.66, z: 2.8026228}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1574965089}
+  m_Children:
+  - {fileID: 2061226387}
+  m_Father: {fileID: 1416186289}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &162274143
 GameObject:
@@ -587,7 +588,7 @@ Transform:
   m_GameObject: {fileID: 162274143}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 24, y: 5.2, z: 25}
+  m_LocalPosition: {x: 24, y: 2.75, z: 15.97}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1021,7 +1022,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: a7878c34211744d42a679b62daf9ba6e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1494,7 +1495,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 1e8fb33a58346a3419d7b16a456a7e86, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1549,7 +1550,7 @@ Transform:
   m_GameObject: {fileID: 546834681}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.711, z: 5.17}
+  m_LocalPosition: {x: 0, y: 4, z: 5.17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1614,9 +1615,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Single Teleport
-
-    Single User'
+  m_text: move to  Space1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 671dbf751a1b0604fb9b5c4787896a57, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 349005d660ea665469fe1813fef74bbc, type: 2}
@@ -1755,7 +1754,7 @@ Transform:
   m_GameObject: {fileID: 618822502}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.711, z: 5.17}
+  m_LocalPosition: {x: 0, y: 4, z: 5.17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1962,7 +1961,7 @@ Transform:
   m_GameObject: {fileID: 852566362}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.711, z: 5.17}
+  m_LocalPosition: {x: 0, y: 4, z: 5.17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1996,7 +1995,7 @@ Transform:
   m_GameObject: {fileID: 858880391}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -2.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2317,12 +2316,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 885665708}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.34711975, z: -0, w: 0.93782085}
-  m_LocalPosition: {x: -2.44, y: 1.66, z: 2.74}
+  m_LocalRotation: {x: -0, y: 0.06411948, z: -0, w: 0.9979422}
+  m_LocalPosition: {x: 0.84195274, y: 1.66, z: 3.556867}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1574965089}
+  m_Children:
+  - {fileID: 1791400889}
+  m_Father: {fileID: 1416186289}
   m_LocalEulerAnglesHint: {x: 0, y: -40.623, z: 0}
 --- !u!114 &885665710
 MonoBehaviour:
@@ -2369,18 +2369,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   InteractionProximityRadius: 6
-  interactionProximityRadius: 6
+  interactionProximityRadius: 10
   highlightSettings:
     Hovered: 1
     Selected: 0
     HighlightMechanism: 1
-    HighlightColor: {r: 0.020754695, g: 1, b: 0.39748862, a: 1}
+    HighlightColor: {r: 1, g: 0.6666667, b: 0, a: 1}
     HighlightTransitionDuration: 0.15
-    HighlightOutlineWidth: 0.004
+    HighlightOutlineWidth: 0.008
     CustomOutlineMaterial: {fileID: 0}
     CustomStencilWriteMaterial: {fileID: 0}
-    OutlineExclusionMode: 0
-    OutlineExclusionString: 
+    OutlineExclusionMode: 3
+    OutlineExclusionString: Text (TMP)
     highlightAmountProperties: []
     highlightColorProperties: []
     CustomHighlightMaterial: {fileID: 0}
@@ -2782,7 +2782,7 @@ Transform:
   m_GameObject: {fileID: 981774017}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -24, y: 5.2, z: 25}
+  m_LocalPosition: {x: -24, y: 2.7, z: 18.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2875,18 +2875,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   InteractionProximityRadius: 6
-  interactionProximityRadius: 6
+  interactionProximityRadius: 10
   highlightSettings:
     Hovered: 1
     Selected: 0
     HighlightMechanism: 1
-    HighlightColor: {r: 0.020754695, g: 1, b: 0.39748862, a: 1}
+    HighlightColor: {r: 1, g: 0.6666667, b: 0, a: 1}
     HighlightTransitionDuration: 0.15
-    HighlightOutlineWidth: 0.004
+    HighlightOutlineWidth: 0.008
     CustomOutlineMaterial: {fileID: 0}
     CustomStencilWriteMaterial: {fileID: 0}
-    OutlineExclusionMode: 0
-    OutlineExclusionString: 
+    OutlineExclusionMode: 3
+    OutlineExclusionString: Text (TMP)
     highlightAmountProperties: []
     highlightColorProperties: []
     CustomHighlightMaterial: {fileID: 0}
@@ -3151,16 +3151,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1171419004}
-  m_LocalRotation: {x: -0, y: -0.34711975, z: -0, w: 0.93782085}
-  m_LocalPosition: {x: 0, y: 0, z: 1.64}
+  m_LocalRotation: {x: -0, y: 0.000000029802315, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.049999997, y: 0.05, z: 0.049999997}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1574965089}
+  m_Father: {fileID: 1527485484}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.5, y: 0.98999995}
+  m_AnchoredPosition: {x: 0, y: -0.6699999}
   m_SizeDelta: {x: 40, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1171419006
@@ -3324,7 +3324,7 @@ Transform:
   m_GameObject: {fileID: 1185902620}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.711, z: 5.17}
+  m_LocalPosition: {x: 0, y: 4, z: 5.17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3523,9 +3523,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Single Teleport
-
-    Single User'
+  m_text: move to  Space1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 671dbf751a1b0604fb9b5c4787896a57, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 349005d660ea665469fe1813fef74bbc, type: 2}
@@ -3715,7 +3713,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 1e8fb33a58346a3419d7b16a456a7e86, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3776,7 +3774,11 @@ Transform:
   m_Children:
   - {fileID: 1605095162}
   - {fileID: 1982316524}
-  - {fileID: 1574965089}
+  - {fileID: 5882323388069522844}
+  - {fileID: 1644376885}
+  - {fileID: 106970977}
+  - {fileID: 885665709}
+  - {fileID: 1527485484}
   - {fileID: 618822503}
   m_Father: {fileID: 383849840}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -3806,7 +3808,7 @@ Transform:
   m_GameObject: {fileID: 1419550916}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 5.2, z: 25}
+  m_LocalPosition: {x: 0, y: 5.2, z: 22.17}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3853,15 +3855,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1455569522}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 2.93}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.050000004, y: 0.05, z: 0.050000004}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1574965089}
+  m_Father: {fileID: 5882323388069522844}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2, y: 0.98999995}
+  m_AnchoredPosition: {x: 0, y: -0.6699999}
   m_SizeDelta: {x: 40, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1455569524
@@ -4169,18 +4171,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   InteractionProximityRadius: 6
-  interactionProximityRadius: 6
+  interactionProximityRadius: 10
   highlightSettings:
     Hovered: 1
     Selected: 0
     HighlightMechanism: 1
-    HighlightColor: {r: 0.020754695, g: 1, b: 0.39748862, a: 1}
+    HighlightColor: {r: 1, g: 0.6666667, b: 0, a: 1}
     HighlightTransitionDuration: 0.15
-    HighlightOutlineWidth: 0.004
+    HighlightOutlineWidth: 0.008
     CustomOutlineMaterial: {fileID: 0}
     CustomStencilWriteMaterial: {fileID: 0}
-    OutlineExclusionMode: 0
-    OutlineExclusionString: 
+    OutlineExclusionMode: 3
+    OutlineExclusionString: Text (TMP)
     highlightAmountProperties: []
     highlightColorProperties: []
     CustomHighlightMaterial: {fileID: 0}
@@ -4496,7 +4498,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 92c239c6f48499944aec5de81cd7a6fa, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4556,12 +4558,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1527485483}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.34711975, z: -0, w: 0.93782085}
-  m_LocalPosition: {x: -3.5, y: 1.66, z: 1.64}
+  m_LocalRotation: {x: -0, y: 0.06411948, z: -0, w: 0.9979422}
+  m_LocalPosition: {x: -0.68480736, y: 1.66, z: 3.6078923}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1574965089}
+  m_Children:
+  - {fileID: 1171419005}
+  m_Father: {fileID: 1416186289}
   m_LocalEulerAnglesHint: {x: 0, y: -40.623, z: 0}
 --- !u!114 &1527485485
 MonoBehaviour:
@@ -4576,9 +4579,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":9.799988,"y":-55.5},"zoom":1.0,"elements":[{"_numValues":1,"allowPolling":false,"coroutine":false,"defaultValues":{},"position":{"x":-139.0,"y":-125.0},"guid":"6b56307d-590e-452f-879d-e83d897a17fb","$version":"A","$type":"Microsoft.Mesh.VisualScripting.StateChangedEventUnit","$id":"10"},{"defaultValues":{},"position":{"x":73.0,"y":-106.0},"guid":"0f042a06-52ab-4b46-bd63-21862fab65d9","$version":"A","$type":"Unity.VisualScripting.If","$id":"12"},{"chainable":false,"parameterNames":[],"member":{"name":"TravelToPoint","parameterTypes":[],"targetType":"Microsoft.Mesh.Interactables.TravelPoint","targetTypeName":"Microsoft.Mesh.Interactables.TravelPoint","$version":"A"},"defaultValues":{"target":{"$content":0,"$type":"UnityEngine.Object"}},"position":{"x":226.0,"y":-106.0},"guid":"952e73c6-bd4d-4f59-bfc9-866d3a3567cf","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"14"},{"member":{"name":"IsSelected","parameterTypes":null,"targetType":"Microsoft.Mesh.Interactables.MeshInteractableBody","targetTypeName":"Microsoft.Mesh.Interactables.MeshInteractableBody","$version":"A"},"defaultValues":{"target":null},"position":{"x":-374.0,"y":-106.0},"guid":"2167fa02-9201-4e11-a93f-51f642adafb7","$version":"A","$type":"Unity.VisualScripting.GetMember","$id":"18"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"enter","guid":"0dcb76b0-da3c-4111-b686-6fb7f8ee4508","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"ifTrue","destinationUnit":{"$ref":"14"},"destinationKey":"enter","guid":"172b7e89-58bd-44c2-b082-dfc933162cf8","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"10"},"sourceKey":"out_0","destinationUnit":{"$ref":"12"},"destinationKey":"condition","guid":"2f983094-0690-46d9-8774-79b9651726fe","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"value","destinationUnit":{"$ref":"10"},"destinationKey":"in_0","guid":"51b18436-fdec-4bc3-827f-9e1540d38b0e","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}}'
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":9.799988,"y":-55.5},"zoom":1.0,"elements":[{"_numValues":1,"allowPolling":false,"coroutine":false,"defaultValues":{},"position":{"x":-139.0,"y":-125.0},"guid":"6b56307d-590e-452f-879d-e83d897a17fb","$version":"A","$type":"Microsoft.Mesh.VisualScripting.StateChangedEventUnit","$id":"10"},{"defaultValues":{},"position":{"x":73.0,"y":-106.0},"guid":"0f042a06-52ab-4b46-bd63-21862fab65d9","$version":"A","$type":"Unity.VisualScripting.If","$id":"12"},{"member":{"name":"IsSelected","parameterTypes":null,"targetType":"Microsoft.Mesh.Interactables.MeshInteractableBody","targetTypeName":"Microsoft.Mesh.Interactables.MeshInteractableBody","$version":"A"},"defaultValues":{"target":null},"position":{"x":-374.0,"y":-106.0},"guid":"2167fa02-9201-4e11-a93f-51f642adafb7","$version":"A","$type":"Unity.VisualScripting.GetMember","$id":"14"},{"chainable":false,"parameterNames":[],"member":{"name":"TravelToRandomTravelPoint","parameterTypes":[],"targetType":"Microsoft.Mesh.Interactables.TravelPointGroup","targetTypeName":"Microsoft.Mesh.Interactables.TravelPointGroup","$version":"A"},"defaultValues":{"target":{"$content":0,"$type":"UnityEngine.Object"}},"position":{"x":221.0,"y":-107.0},"guid":"a8c2bd0d-b8d8-4919-b73e-5c747001c117","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"17"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"enter","guid":"0dcb76b0-da3c-4111-b686-6fb7f8ee4508","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"ifTrue","destinationUnit":{"$ref":"17"},"destinationKey":"enter","guid":"bb9368a4-845b-4aa8-bbec-d33d1f40df34","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"10"},"sourceKey":"out_0","destinationUnit":{"$ref":"12"},"destinationKey":"condition","guid":"2f983094-0690-46d9-8774-79b9651726fe","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"value","destinationUnit":{"$ref":"10"},"destinationKey":"in_0","guid":"51b18436-fdec-4bc3-827f-9e1540d38b0e","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}}'
     _objectReferences:
-    - {fileID: 1559341356}
+    - {fileID: 172366906}
 --- !u!114 &1527485486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4608,18 +4611,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   InteractionProximityRadius: 6
-  interactionProximityRadius: 6
+  interactionProximityRadius: 10
   highlightSettings:
     Hovered: 1
     Selected: 0
     HighlightMechanism: 1
-    HighlightColor: {r: 0.020754695, g: 1, b: 0.39748862, a: 1}
+    HighlightColor: {r: 1, g: 0.6666667, b: 0, a: 1}
     HighlightTransitionDuration: 0.15
-    HighlightOutlineWidth: 0.004
+    HighlightOutlineWidth: 0.008
     CustomOutlineMaterial: {fileID: 0}
     CustomStencilWriteMaterial: {fileID: 0}
-    OutlineExclusionMode: 0
-    OutlineExclusionString: 
+    OutlineExclusionMode: 3
+    OutlineExclusionString: Text (TMP)
     highlightAmountProperties: []
     highlightColorProperties: []
     CustomHighlightMaterial: {fileID: 0}
@@ -4887,8 +4890,8 @@ Transform:
   m_GameObject: {fileID: 1542618017}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -21.6, y: 5, z: 7.6}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalPosition: {x: -21.6, y: 5, z: 73.4}
+  m_LocalScale: {x: 60, y: 60, z: 60}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 383849840}
@@ -4934,7 +4937,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1aebd83b8b403e2429df506f6bac3792, type: 2}
+  - {fileID: 2100000, guid: d3f24bf9436dc3a4fb1c8a49fdd54292, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4990,7 +4993,7 @@ Transform:
   m_GameObject: {fileID: 1559341354}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -24, y: 5.2, z: 25}
+  m_LocalPosition: {x: -24, y: 2.83, z: 15.99}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5011,47 +5014,6 @@ MonoBehaviour:
   LookAtTransform: {fileID: 0}
   Radius: 2
   SingleTravel: 0
---- !u!1 &1574965088
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1574965089}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1574965089
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1574965088}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.40653804, z: -0, w: 0.9136339}
-  m_LocalPosition: {x: 0.44, y: 0, z: -0.09}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 5882323388069522844}
-  - {fileID: 1455569523}
-  - {fileID: 1644376885}
-  - {fileID: 1601750472}
-  - {fileID: 106970977}
-  - {fileID: 2061226387}
-  - {fileID: 885665709}
-  - {fileID: 1791400889}
-  - {fileID: 1527485484}
-  - {fileID: 1171419005}
-  m_Father: {fileID: 1416186289}
-  m_LocalEulerAnglesHint: {x: 0, y: 47.975, z: 0}
 --- !u!1 &1583409109
 GameObject:
   m_ObjectHideFlags: 0
@@ -5146,15 +5108,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1601750471}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 3.34}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.050000004, y: 0.05, z: 0.050000004}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1574965089}
+  m_Father: {fileID: 1644376885}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.48, y: 0.98999995}
+  m_AnchoredPosition: {x: 0, y: -0.6699999}
   m_SizeDelta: {x: 40, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1601750473
@@ -5345,7 +5307,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: a7878c34211744d42a679b62daf9ba6e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5427,12 +5389,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1644376884}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.48, y: 1.66, z: 3.34}
+  m_LocalRotation: {x: -0, y: 0.40653804, z: -0, w: 0.9136339}
+  m_LocalPosition: {x: 3.2424695, y: 1.66, z: 1.7894053}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1574965089}
+  m_Children:
+  - {fileID: 1601750472}
+  m_Father: {fileID: 1416186289}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1644376886
 MonoBehaviour:
@@ -5479,18 +5442,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   InteractionProximityRadius: 6
-  interactionProximityRadius: 6
+  interactionProximityRadius: 10
   highlightSettings:
     Hovered: 1
     Selected: 0
     HighlightMechanism: 1
-    HighlightColor: {r: 0.020754695, g: 1, b: 0.39748862, a: 1}
+    HighlightColor: {r: 1, g: 0.6666667, b: 0, a: 1}
     HighlightTransitionDuration: 0.15
-    HighlightOutlineWidth: 0.004
+    HighlightOutlineWidth: 0.008
     CustomOutlineMaterial: {fileID: 0}
     CustomStencilWriteMaterial: {fileID: 0}
-    OutlineExclusionMode: 0
-    OutlineExclusionString: 
+    OutlineExclusionMode: 3
+    OutlineExclusionString: Text (TMP)
     highlightAmountProperties: []
     highlightColorProperties: []
     CustomHighlightMaterial: {fileID: 0}
@@ -5797,18 +5760,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   InteractionProximityRadius: 6
-  interactionProximityRadius: 6
+  interactionProximityRadius: 10
   highlightSettings:
     Hovered: 1
     Selected: 0
     HighlightMechanism: 1
-    HighlightColor: {r: 0.020754695, g: 1, b: 0.39748862, a: 1}
+    HighlightColor: {r: 1, g: 0.6666667, b: 0, a: 1}
     HighlightTransitionDuration: 0.15
-    HighlightOutlineWidth: 0.004
+    HighlightOutlineWidth: 0.008
     CustomOutlineMaterial: {fileID: 0}
     CustomStencilWriteMaterial: {fileID: 0}
-    OutlineExclusionMode: 0
-    OutlineExclusionString: 
+    OutlineExclusionMode: 3
+    OutlineExclusionString: Text (TMP)
     highlightAmountProperties: []
     highlightColorProperties: []
     CustomHighlightMaterial: {fileID: 0}
@@ -6140,7 +6103,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: f33ef778b81ea9b40bc3ba1acb031949, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6195,16 +6158,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1791400888}
-  m_LocalRotation: {x: -0, y: -0.34711975, z: -0, w: 0.93782085}
-  m_LocalPosition: {x: 0, y: 0, z: 2.74}
+  m_LocalRotation: {x: -0, y: 0.000000029802315, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.049999997, y: 0.05, z: 0.049999997}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1574965089}
+  m_Father: {fileID: 885665709}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -2.44, y: 0.98999995}
+  m_AnchoredPosition: {x: 0, y: -0.6699999}
   m_SizeDelta: {x: 40, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1791400890
@@ -6499,9 +6462,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Single Teleport
-
-    Single User'
+  m_text: move to  Space1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 671dbf751a1b0604fb9b5c4787896a57, type: 2}
   m_sharedMaterial: {fileID: 2100000, guid: 349005d660ea665469fe1813fef74bbc, type: 2}
@@ -6811,7 +6772,7 @@ Transform:
   m_GameObject: {fileID: 2033419920}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 24, y: 5.2, z: 25}
+  m_LocalPosition: {x: 24, y: 2.7, z: 18.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6847,15 +6808,15 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2061226386}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 3.3}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.050000004, y: 0.05, z: 0.050000004}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1574965089}
+  m_Father: {fileID: 106970977}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.92, y: 0.98999995}
+  m_AnchoredPosition: {x: 0, y: -0.6699999}
   m_SizeDelta: {x: 40, y: 5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2061226388
@@ -7068,7 +7029,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: f33ef778b81ea9b40bc3ba1acb031949, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7143,18 +7104,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   InteractionProximityRadius: 6
-  interactionProximityRadius: 6
+  interactionProximityRadius: 10
   highlightSettings:
     Hovered: 1
     Selected: 0
     HighlightMechanism: 1
-    HighlightColor: {r: 0.020754695, g: 1, b: 0.39748862, a: 1}
+    HighlightColor: {r: 1, g: 0.6664003, b: 0, a: 1}
     HighlightTransitionDuration: 0.15
-    HighlightOutlineWidth: 0.004
+    HighlightOutlineWidth: 0.008
     CustomOutlineMaterial: {fileID: 0}
     CustomStencilWriteMaterial: {fileID: 0}
-    OutlineExclusionMode: 0
-    OutlineExclusionString: 
+    OutlineExclusionMode: 3
+    OutlineExclusionString: Text (TMP)
     highlightAmountProperties: []
     highlightColorProperties: []
     CustomHighlightMaterial: {fileID: 0}
@@ -7353,12 +7314,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5358810587110135339}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2, y: 1.66, z: 2.93}
+  m_LocalRotation: {x: -0, y: 0.40653804, z: -0, w: 0.9136339}
+  m_LocalPosition: {x: 3.9554691, y: 1.66, z: 0.38579145}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1574965089}
+  m_Children:
+  - {fileID: 1455569523}
+  m_Father: {fileID: 1416186289}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &7681608654077526988
 SphereCollider:
